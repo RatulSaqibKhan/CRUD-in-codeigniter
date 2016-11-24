@@ -1,0 +1,3 @@
+crud_in_codeigniter
+
+I'm learning codeigniter; and this is a simple project to do create retrieve update delete (crud).
