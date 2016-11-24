@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 18, 2016 at 12:46 PM
+-- Generation Time: Nov 24, 2016 at 02:43 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.20
 
@@ -41,13 +41,13 @@ CREATE TABLE `user_info` (
 --
 
 INSERT INTO `user_info` (`id`, `name`, `age`, `gender`, `email`, `pass_word`, `image`) VALUES
-(1, 'saqib', 24, 1, 'rsk@tmail.com', '123', NULL),
-(2, 'gabriella', 26, 2, 'vvv@gmail.com', '123', 'google_plus_icon.png'),
-(5, 'Arnold', 26, 1, 'vvv@gmail.com', '123', NULL),
+(2, 'Zerin', 26, 2, 'vvv@gmail.com', '456+', 'google_plus_icon2.png'),
 (7, 'frhn', 36, 2, 'jaber@hmail.coom', '456', 'fb_icon.png'),
 (10, 'gabriella', 36, 2, 'asss@n.c', '123', 'linkedin_icon.png'),
 (11, 'gabriella', 36, 2, 'asss@n.c', '123', 'linkedin_icon1.png'),
-(12, 'Arnold', 18, 1, 'rsk@tmail.com', '123456', 'google_plus_icon1.png');
+(13, 'Arnold', 51, 1, 'vvv@gmail.com', '123456', 'linkedin_icon2.png'),
+(14, 'frhn', 51, 2, 'asss@n.c', '123456', 'linkedin_icon3.png'),
+(15, 'frhn', 51, 1, 'asss@n.c', '123', 'icon-tick.png');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +67,7 @@ ALTER TABLE `user_info`
 -- AUTO_INCREMENT for table `user_info`
 --
 ALTER TABLE `user_info`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
